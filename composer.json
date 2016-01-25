@@ -1,0 +1,16 @@
+{
+    "name": "dmlogic/data-item",
+    "description": "Simple gettable data container",
+    "homepage": "https://github.com/dmlogic/data-item",
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "php": ">=5.4",
+        "dmlogic/gettable-trait" : ">=0.0.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dmlogic\\": "src/"
+        }
+    }
+}
